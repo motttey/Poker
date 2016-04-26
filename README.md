@@ -24,17 +24,19 @@ sort関数の内容が記述されているソースファイル
 
 #$make 及び $make clean の実行結果
 
-''
+``
+    
 $ make
 gcc    -c -o main.o main.c
 gcc -o poker.o primitivepoker.o checkhand.o sort.o main.o
 $ make clean
 rm -f primitivepoker.o checkhand.o sort.o poker_main.o *
-''
+``
 
 #poker.oの実行結果
 
-''
+``
+    
 $ ./poker.o
 Dealed cards are ...
 
